@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "FlipFeed";
+CFBundleGetInfoString = "FlipFeed Version 1.3.0, Copyright © 2021 tanuki-project All Rights Reserved.";
+NSHumanReadableCopyright = "Copyright © 2021 tanuki-project All Rights Reserved.";

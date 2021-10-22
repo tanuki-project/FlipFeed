@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F05C000169D885A0076DBFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05BFFF169D885A0076DBFB /* Cocoa.framework */; };
+		6F05C00A169D885A0076DBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C008169D885A0076DBFB /* InfoPlist.strings */; };
+		6F05C00C169D885A0076DBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C00B169D885A0076DBFB /* main.m */; };
+		6F05C010169D885A0076DBFB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C00E169D885A0076DBFB /* Credits.rtf */; };
+		6F05C013169D885A0076DBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C012169D885A0076DBFB /* AppDelegate.m */; };
+		6F05C016169D885A0076DBFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C014169D885A0076DBFB /* MainMenu.xib */; };
+		6F096F1316A5818A00884F98 /* orange-feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F096F1216A5818A00884F98 /* orange-feed.png */; };
+		6F42C2A8171ABB9C00381322 /* Sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F42C2A7171ABB9C00381322 /* Sound.png */; };
+		6F45DCC816A05DF9003CB8FA /* PageDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F45DCC716A05DF9003CB8FA /* PageDown.png */; };
+		6F994A851726AA7700733F98 /* Skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F994A841726AA7700733F98 /* Skip.png */; };
+		6FBF4B16169D88F5005778E1 /* Bookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF4B14169D88F5005778E1 /* Bookmark.m */; };
+		6FBF4B1C169D8904005778E1 /* rssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF4B19169D8904005778E1 /* rssItem.m */; };
+		6FBF4B1D169D8904005778E1 /* RssReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF4B1B169D8904005778E1 /* RssReader.m */; };
+		6FBF4B20169D891B005778E1 /* RssReader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B1E169D891B005778E1 /* RssReader.xib */; };
+		6FBF4B22169D8977005778E1 /* CompleteAlarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B21169D8977005778E1 /* CompleteAlarm.m4a */; };
+		6FBF4B26169D898D005778E1 /* Feed-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B23169D898D005778E1 /* Feed-icon.png */; };
+		6FBF4B27169D898D005778E1 /* ImageStopRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B24169D898D005778E1 /* ImageStopRegular.png */; };
+		6FBF4B28169D898D005778E1 /* ImageStopSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B25169D898D005778E1 /* ImageStopSmall.png */; };
+		6FBF4B2B169D89A1005778E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF4B29169D89A1005778E1 /* Localizable.strings */; };
+		6FBF4B2E169D8A47005778E1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBF4B2D169D8A47005778E1 /* WebKit.framework */; };
+		6FC14AC016A4600B00051208 /* blue-feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC14ABF16A4600B00051208 /* blue-feed.png */; };
+		6FF0B80116A4020E00562D37 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0B80016A4020E00562D37 /* circle.png */; };
+		6FF0B80416A40A1A00562D37 /* Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0B80316A40A1A00562D37 /* Hand.png */; };
+		6FF0B80616A4103400562D37 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0B80516A4103400562D37 /* Earth.png */; };
+		6FF0B80D16A4172200562D37 /* FlipFeed.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0B80C16A4172200562D37 /* FlipFeed.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F05BFFB169D885A0076DBFB /* FlipFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F05BFFF169D885A0076DBFB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F05C002169D885A0076DBFB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F05C003169D885A0076DBFB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F05C004169D885A0076DBFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F05C007169D885A0076DBFB /* FlipFeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipFeed-Info.plist"; sourceTree = "<group>"; };
+		6F05C009169D885A0076DBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F05C00B169D885A0076DBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F05C00D169D885A0076DBFB /* FlipFeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipFeed-Prefix.pch"; sourceTree = "<group>"; };
+		6F05C00F169D885A0076DBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6F05C011169D885A0076DBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F05C012169D885A0076DBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F05C015169D885A0076DBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6F05C01C169D887E0076DBFB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F096F1216A5818A00884F98 /* orange-feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-feed.png"; sourceTree = "<group>"; };
+		6F1DB60E1734143E003BEA2B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F1DB60F1734144B003BEA2B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F1DB610173414AC003BEA2B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F42C2A7171ABB9C00381322 /* Sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sound.png; sourceTree = "<group>"; };
+		6F45DCC716A05DF9003CB8FA /* PageDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageDown.png; sourceTree = "<group>"; };
+		6F8E1FF5173D3EA000D282CE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8E1FF6173D3EB200D282CE /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F994A841726AA7700733F98 /* Skip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skip.png; sourceTree = "<group>"; };
+		6FAC9FFB16A2A69000E0F24D /* FlipFeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FlipFeed.entitlements; sourceTree = "<group>"; };
+		6FBF4B13169D88F5005778E1 /* Bookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookmark.h; sourceTree = "<group>"; };
+		6FBF4B14169D88F5005778E1 /* Bookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bookmark.m; sourceTree = "<group>"; };
+		6FBF4B15169D88F5005778E1 /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = build.h; sourceTree = "<group>"; };
+		6FBF4B18169D8904005778E1 /* rssItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rssItem.h; sourceTree = "<group>"; };
+		6FBF4B19169D8904005778E1 /* rssItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rssItem.m; sourceTree = "<group>"; };
+		6FBF4B1A169D8904005778E1 /* RssReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssReader.h; sourceTree = "<group>"; };
+		6FBF4B1B169D8904005778E1 /* RssReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssReader.m; sourceTree = "<group>"; };
+		6FBF4B1F169D891B005778E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RssReader.xib; sourceTree = "<group>"; };
+		6FBF4B21169D8977005778E1 /* CompleteAlarm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = CompleteAlarm.m4a; sourceTree = "<group>"; };
+		6FBF4B23169D898D005778E1 /* Feed-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Feed-icon.png"; sourceTree = "<group>"; };
+		6FBF4B24169D898D005778E1 /* ImageStopRegular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageStopRegular.png; sourceTree = "<group>"; };
+		6FBF4B25169D898D005778E1 /* ImageStopSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageStopSmall.png; sourceTree = "<group>"; };
+		6FBF4B2A169D89A1005778E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6FBF4B2C169D89F6005778E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6FBF4B2D169D8A47005778E1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6FC14ABF16A4600B00051208 /* blue-feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-feed.png"; sourceTree = "<group>"; };
+		6FF0B80016A4020E00562D37 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		6FF0B80316A40A1A00562D37 /* Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hand.png; sourceTree = "<group>"; };
+		6FF0B80516A4103400562D37 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
+		6FF0B80C16A4172200562D37 /* FlipFeed.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FlipFeed.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F05BFF8169D885A0076DBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBF4B2E169D8A47005778E1 /* WebKit.framework in Frameworks */,
+				6F05C000169D885A0076DBFB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F05BFF0169D885A0076DBFB = {
+			isa = PBXGroup;
+			children = (
+				6F05C005169D885A0076DBFB /* FlipFeed */,
+				6F05BFFE169D885A0076DBFB /* Frameworks */,
+				6F05BFFC169D885A0076DBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F05BFFC169D885A0076DBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F05BFFB169D885A0076DBFB /* FlipFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F05BFFE169D885A0076DBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF4B2D169D8A47005778E1 /* WebKit.framework */,
+				6F05BFFF169D885A0076DBFB /* Cocoa.framework */,
+				6F05C001169D885A0076DBFB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F05C001169D885A0076DBFB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F05C002169D885A0076DBFB /* AppKit.framework */,
+				6F05C003169D885A0076DBFB /* CoreData.framework */,
+				6F05C004169D885A0076DBFB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F05C005169D885A0076DBFB /* FlipFeed */ = {
+			isa = PBXGroup;
+			children = (
+				6F05C011169D885A0076DBFB /* AppDelegate.h */,
+				6F05C012169D885A0076DBFB /* AppDelegate.m */,
+				6FBF4B13169D88F5005778E1 /* Bookmark.h */,
+				6FBF4B14169D88F5005778E1 /* Bookmark.m */,
+				6FBF4B15169D88F5005778E1 /* build.h */,
+				6FAC9FFB16A2A69000E0F24D /* FlipFeed.entitlements */,
+				6F05C014169D885A0076DBFB /* MainMenu.xib */,
+				6FBF4B18169D8904005778E1 /* rssItem.h */,
+				6FBF4B19169D8904005778E1 /* rssItem.m */,
+				6FBF4B1A169D8904005778E1 /* RssReader.h */,
+				6FBF4B1B169D8904005778E1 /* RssReader.m */,
+				6FBF4B1E169D891B005778E1 /* RssReader.xib */,
+				6F05C006169D885A0076DBFB /* Supporting Files */,
+			);
+			path = FlipFeed;
+			sourceTree = "<group>";
+		};
+		6F05C006169D885A0076DBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC14ABF16A4600B00051208 /* blue-feed.png */,
+				6FF0B80016A4020E00562D37 /* circle.png */,
+				6FBF4B21169D8977005778E1 /* CompleteAlarm.m4a */,
+				6F05C00E169D885A0076DBFB /* Credits.rtf */,
+				6FF0B80516A4103400562D37 /* Earth.png */,
+				6FBF4B23169D898D005778E1 /* Feed-icon.png */,
+				6F05C007169D885A0076DBFB /* FlipFeed-Info.plist */,
+				6F05C00D169D885A0076DBFB /* FlipFeed-Prefix.pch */,
+				6FF0B80C16A4172200562D37 /* FlipFeed.icns */,
+				6FF0B80316A40A1A00562D37 /* Hand.png */,
+				6FBF4B24169D898D005778E1 /* ImageStopRegular.png */,
+				6FBF4B25169D898D005778E1 /* ImageStopSmall.png */,
+				6F05C008169D885A0076DBFB /* InfoPlist.strings */,
+				6FBF4B29169D89A1005778E1 /* Localizable.strings */,
+				6F05C00B169D885A0076DBFB /* main.m */,
+				6F096F1216A5818A00884F98 /* orange-feed.png */,
+				6F45DCC716A05DF9003CB8FA /* PageDown.png */,
+				6F994A841726AA7700733F98 /* Skip.png */,
+				6F42C2A7171ABB9C00381322 /* Sound.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F05BFFA169D885A0076DBFB /* FlipFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F05C019169D885A0076DBFB /* Build configuration list for PBXNativeTarget "FlipFeed" */;
+			buildPhases = (
+				6F05BFF7169D885A0076DBFB /* Sources */,
+				6F05BFF8169D885A0076DBFB /* Frameworks */,
+				6F05BFF9169D885A0076DBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipFeed;
+			productName = FlipFeed;
+			productReference = 6F05BFFB169D885A0076DBFB /* FlipFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F05BFF2169D885A0076DBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "tanuki-project";
+				TargetAttributes = {
+					6F05BFFA169D885A0076DBFB = {
+						DevelopmentTeam = KERF423C7P;
+					};
+				};
+			};
+			buildConfigurationList = 6F05BFF5169D885A0076DBFB /* Build configuration list for PBXProject "FlipFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				de,
+				fr,
+				it,
+				es,
+				pt,
+				Base,
+			);
+			mainGroup = 6F05BFF0169D885A0076DBFB;
+			productRefGroup = 6F05BFFC169D885A0076DBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F05BFFA169D885A0076DBFB /* FlipFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F05BFF9169D885A0076DBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05C00A169D885A0076DBFB /* InfoPlist.strings in Resources */,
+				6F05C010169D885A0076DBFB /* Credits.rtf in Resources */,
+				6F05C016169D885A0076DBFB /* MainMenu.xib in Resources */,
+				6FBF4B20169D891B005778E1 /* RssReader.xib in Resources */,
+				6FBF4B22169D8977005778E1 /* CompleteAlarm.m4a in Resources */,
+				6FBF4B26169D898D005778E1 /* Feed-icon.png in Resources */,
+				6FBF4B27169D898D005778E1 /* ImageStopRegular.png in Resources */,
+				6FBF4B28169D898D005778E1 /* ImageStopSmall.png in Resources */,
+				6FBF4B2B169D89A1005778E1 /* Localizable.strings in Resources */,
+				6F45DCC816A05DF9003CB8FA /* PageDown.png in Resources */,
+				6FF0B80116A4020E00562D37 /* circle.png in Resources */,
+				6FF0B80416A40A1A00562D37 /* Hand.png in Resources */,
+				6FF0B80616A4103400562D37 /* Earth.png in Resources */,
+				6FF0B80D16A4172200562D37 /* FlipFeed.icns in Resources */,
+				6FC14AC016A4600B00051208 /* blue-feed.png in Resources */,
+				6F096F1316A5818A00884F98 /* orange-feed.png in Resources */,
+				6F42C2A8171ABB9C00381322 /* Sound.png in Resources */,
+				6F994A851726AA7700733F98 /* Skip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F05BFF7169D885A0076DBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05C00C169D885A0076DBFB /* main.m in Sources */,
+				6F05C013169D885A0076DBFB /* AppDelegate.m in Sources */,
+				6FBF4B16169D88F5005778E1 /* Bookmark.m in Sources */,
+				6FBF4B1C169D8904005778E1 /* rssItem.m in Sources */,
+				6FBF4B1D169D8904005778E1 /* RssReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F05C008169D885A0076DBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F05C009169D885A0076DBFB /* en */,
+				6F05C01C169D887E0076DBFB /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F05C00E169D885A0076DBFB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F05C00F169D885A0076DBFB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6F05C014169D885A0076DBFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F05C015169D885A0076DBFB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6FBF4B1E169D891B005778E1 /* RssReader.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBF4B1F169D891B005778E1 /* en */,
+			);
+			name = RssReader.xib;
+			sourceTree = "<group>";
+		};
+		6FBF4B29169D89A1005778E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FBF4B2A169D89A1005778E1 /* en */,
+				6FBF4B2C169D89F6005778E1 /* ja */,
+				6F1DB60E1734143E003BEA2B /* de */,
+				6F1DB60F1734144B003BEA2B /* fr */,
+				6F1DB610173414AC003BEA2B /* it */,
+				6F8E1FF5173D3EA000D282CE /* es */,
+				6F8E1FF6173D3EB200D282CE /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F05C017169D885A0076DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F05C018169D885A0076DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F05C01A169D885A0076DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = FlipFeed/FlipFeed.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFeed/FlipFeed-Prefix.pch";
+				INFOPLIST_FILE = "FlipFeed/FlipFeed-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanuki-project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F05C01B169D885A0076DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = FlipFeed/FlipFeed.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFeed/FlipFeed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BLOCK_ASSERTIONS=1";
+				INFOPLIST_FILE = "FlipFeed/FlipFeed-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanuki-project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F05BFF5169D885A0076DBFB /* Build configuration list for PBXProject "FlipFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F05C017169D885A0076DBFB /* Debug */,
+				6F05C018169D885A0076DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F05C019169D885A0076DBFB /* Build configuration list for PBXNativeTarget "FlipFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F05C01A169D885A0076DBFB /* Debug */,
+				6F05C01B169D885A0076DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F05BFF2169D885A0076DBFB /* Project object */;
+}
