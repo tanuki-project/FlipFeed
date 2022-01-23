@@ -14,6 +14,7 @@ FlipFeed is the app for lazy which browses RSS feeds and bookmarked website auto
 [How to Use]
 
  Register RSS feed or bookmark and click [▶] button at the left above of window. Show demo movie at the beginning.
+ For more information, please visit the [demo movie](https://www.youtube.com/watch?v=XS-1kCwSDJg).
 
 [Customization]
 
